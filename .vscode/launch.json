@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Pascal: UE2_NR1",
+            "type": "node-terminal",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "command": "mkdir -p \"${workspaceFolder}/.build/pascal\" && fpc -FE\"${workspaceFolder}/.build/pascal\" -FU\"${workspaceFolder}/.build/pascal\" \"${workspaceFolder}/PRO/Uebungen/UE2_NR1.pas\" && \"${workspaceFolder}/.build/pascal/UE2_NR1\""
+        },
+        {
+            "name": "Pascal: UE2_NR2",
+            "type": "node-terminal",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "command": "mkdir -p \"${workspaceFolder}/.build/pascal\" && fpc -FE\"${workspaceFolder}/.build/pascal\" -FU\"${workspaceFolder}/.build/pascal\" \"${workspaceFolder}/PRO/Uebungen/UE2_NR2.pas\" && \"${workspaceFolder}/.build/pascal/UE2_NR2\""
+        },
+        {
+            "name": "Pascal: UE2_NR3",
+            "type": "node-terminal",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "command": "mkdir -p \"${workspaceFolder}/.build/pascal\" && fpc -FE\"${workspaceFolder}/.build/pascal\" -FU\"${workspaceFolder}/.build/pascal\" \"${workspaceFolder}/PRO/Uebungen/UE2_NR3.pas\" && \"${workspaceFolder}/.build/pascal/UE2_NR3\""
+        }
+    ]
+}
