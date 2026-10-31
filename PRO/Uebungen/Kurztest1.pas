@@ -16,4 +16,5 @@ begin
     READ(min);
     READ(max);
     MINMAX(min, max);
+    // in 7, 21 out 9, 12, 15, 18, 21
 end.

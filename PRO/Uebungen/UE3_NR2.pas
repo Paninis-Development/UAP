@@ -7,13 +7,11 @@ FUNCTION calcMeadian (a, b, c: INTEGER): INTEGER;
 BEGIN
     if (((a <= b) AND (b <= c)) or ((c <= b) AND (b <= a))) THEN BEGIN
     calcMeadian := b;
-    END; 
+    END; ELSE
     if (((b <= a) AND (a <= c)) OR ((c <= a) AND (a <= b))) THEN BEGIN
     calcMeadian := a;
-    END;
-    if (((a <= c) AND (c <= b)) OR ((b <= c) AND (c <= a))) THEN BEGIN
+    END; ELSE
     calcMeadian := c;
-    END; 
 END;
 
 
